@@ -8,5 +8,5 @@ RUN yum install -y nodejs
 RUN yum install -y java-1.8.0-openjdk
 RUN yum install -y ghostscript
 RUN yum install -y ImageMagick-c++ ImageMagick-c++-devel
-
+RUN yum install -y which
 
